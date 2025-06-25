@@ -1,0 +1,42 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10% 5%;
+    margin: 0 auto;
+    max-width: 760px;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+p {
+    text-indent: 1rem;
+    text-align: justify;
+    margin: 1em 0;
+}
+
+blockquote p {
+    text-indent: 0; 
+}
+
+img {
+    max-width: 100%;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid black;
+    margin: 1rem 0;
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 1rem;
+    }
+}
+
+@media print {
+    body {
+        padding: 10% 0 0 0;
+        width: 75%;
+        font-size: 0.75rem;
+    }
+}
